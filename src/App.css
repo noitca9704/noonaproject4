@@ -1,16 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .app{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 35px;
+    height: 100vh;
 }
 .counter{
-    width: 500px;
+    width: 50%;
+    height: 50%;
 }
+.counter *{
+    margin-top: 30px;
+}
+.counter>button{
+    padding: 20px 50px;
+}
+
 .button_area{
     display: flex;
 }
 .button_area button{
     flex: 1;
+    height: 50px;
 }

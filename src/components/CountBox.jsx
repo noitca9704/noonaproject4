@@ -8,7 +8,7 @@ const CountBox = () => {
     if (enteredValue === null) return null;
 
     return (
-        <div style={{ marginTop: '1rem' }}>
+        <div style={{ marginTop: '50px' }}>
             입력한 값 {enteredValue}의 소인수는
             <br />
             {factors.length === 1
